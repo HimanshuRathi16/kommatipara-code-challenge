@@ -25,4 +25,4 @@ jobs:
 
       - name: Build package
         run:  |
-          python -m zipapp kommatipara_app.pyz
+          python -m zipapp kommatipara_app.pyz -p build_output_directory
