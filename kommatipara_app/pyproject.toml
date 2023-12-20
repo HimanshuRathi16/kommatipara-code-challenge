@@ -1,0 +1,26 @@
+# build-system section for specifying build requirements and backend
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "pyspark==3.4.1"
+]
+build-backend = "setuptools.build_meta"
+
+# project section for package metadata
+[project]
+name = "kommatipara"
+version = "1.0.0"
+authors = [
+  { name="Himanshu Rathi", email="rathi.h16@gmail.com" },
+]
+description = "ABN Code Challenge Package for the Kommatipara Application"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/HimanshuRathi16/kommatipara-code-challenge"
+
