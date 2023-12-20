@@ -40,6 +40,8 @@ For example, you can run the following command:
 
 `python .\kommatipara_app\__main__.py ./input_data/dataset_one.csv ./input_data/dataset_two.csv 'Netherlands,United Kingdom'`
 
+*Note: If you are running the code on a local machine, please ensure that you have set the JAVA_HOME and HADOOP_HOME environment variables.*
+
 ## Project Structure
 
 The project is organized as follows:
