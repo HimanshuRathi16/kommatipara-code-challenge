@@ -44,9 +44,11 @@ For example, you can run the following command:
 
 The project is organized as follows:
 
-**kommatipara_app/\_\_main\_\_.py**: This Python script serves as the main entry point for executing the data collation process.
+**kommatipara_app/codebase/\_\_main\_\_.py**: This Python script serves as the main entry point for executing the data collation process.
 
-**kommatipara_app/generic_functions.py**: Hosts generic functions responsible for data filtering and renaming.
+**kommatipara_app/codebase/generic_functions.py**: Hosts generic functions responsible for data filtering and renaming.
+
+**kommatipara_app/codebase/logger.py**: Contains configuration and implementation of logger and logger rotation policies.
 
 **kommatipara_app/test_cases.py**: Encompasses all test cases designed to validate the functionality of the application.
 
@@ -59,6 +61,8 @@ The project is organized as follows:
 **exercise.md**: A document outlining the details and specifications of the assignment.
 
 **README.md**: This documentation file provides comprehensive information about the project structure and functionality.
+
+**.github/workflows/build.yml**: This workflow automates the process of building and packaging a Python project when changes are pushed to the main branch or manually triggered through the GitHub Actions.
 
 ## Data Processing
 
@@ -80,6 +84,10 @@ The project is organized as follows:
 
 - Source Distribution: The project is designed to create a source distribution file, facilitating seamless distribution and deployment. The build process generates a file named 'kommatipara_app.pyz,' allowing direct execution with arguments.
 
+- Automated Build pipeline: Automated build pipeline is created to automate the building and packaging of a Python project. It activates either when changes are pushed to the main branch or when manually triggered through the GitHub Actions UI.
+
 - Dependency Management: Utilize the provided requirements.txt file for straightforward installation of project dependencies.
+
 - Enhanced Documentation: Code documentation follows the reStructuredText (reST) format, improving code readability and understanding.
+
 - Log Rotation Policy: The log file undergoes rotation upon reaching a size of 10 MB, maintaining concise and organized logs.
