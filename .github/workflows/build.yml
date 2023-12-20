@@ -25,4 +25,5 @@ jobs:
 
       - name: Build package
         run:  |
-          python -m zipapp kommatipara_app.pyz -p build_output_directory
+          python -m build kommatipara_app/
+          python -m pip install .\kommatipara_app\dist\kommatipara-1.0.0-py3-none-any.whl
