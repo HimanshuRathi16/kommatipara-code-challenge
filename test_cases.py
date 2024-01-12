@@ -1,6 +1,6 @@
 import pytest
 from pyspark.sql import SparkSession
-from kommatipara_app.src import generic_functions
+from kommatipara_app.codebase import generic_functions
 
 @pytest.fixture(scope="module")
 def spark_session():
