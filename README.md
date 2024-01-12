@@ -32,7 +32,7 @@ For example, you can run the following command:
 
 - You can also run __main__.py file by :
 
-    ```python .\kommatipara_app\__main__.py <path_to_client_data_csv> <path_to_financial_data_csv> <countries_to_filter_separate_by_commas>```
+    ```python .\kommatipara_app\codebase\__main__.py <path_to_client_data_csv> <path_to_financial_data_csv> <countries_to_filter_separate_by_commas>```
 
 Ensure to replace <path_to_client_data_csv>, <path_to_financial_data_csv>, and <countries_to_filter> with the actual paths and country filter criteria
 
